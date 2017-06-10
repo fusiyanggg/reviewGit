@@ -8,4 +8,11 @@ git status
 git diff
 
 asdfasdfasdfasdfs
+回滚到之前的版本，
+git log 查看版本id
 
+git reset --hard ‘id’ 硬回滚
+git status 查看当前状态
+此时再查看 git log 看不到当前版本以后的版本，可以用git reflog 查看所有log信息
+git reflog 
+再次执行 硬回滚可以回到未来的版本
