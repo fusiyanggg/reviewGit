@@ -3,4 +3,7 @@ git add .
 #将暂存区文件提交到历史区(-m【message】)
 git commit -m xxxx
 #查看暂存区中的状态
-git status 
+git status
+#工作区和历史区的不同
+git diff
+
